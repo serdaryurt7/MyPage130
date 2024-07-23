@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+    font-family: 'Merriweather', serif;  /* Goooogle fonts CSS rules  1:45 */
+    font-size: 20px;
+    background-color: rgb(203, 228, 145);
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+border: 3px solid rgb(2, 107, 28) ;
+background-color: rgb(243, 191, 122);
+border-radius: 30px;
+padding: 10px 30px;
+margin-bottom: 10px;
+align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.menu{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+input,textarea {
+    border: 3px solid rgb(2, 107, 28);
+    border-radius: 15px;
+    padding: 15px 15px;
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+button {
+    border: 3px solid rgb(2, 107, 28);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: rgb(243, 191, 122);
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(2, 107, 28) ;
+}
+.footer{
+    border-top: 2px dotted rgb(2, 107, 28); ;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .about{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+    width: 60%;
+}
+
+.about img{
+    width: 300px;
+    height: 300px;
+    border: 3px;
+    border: 3px solid rgb(2, 107, 28);
+    border-radius: 200px;
+    box-shadow: 10px 10px 15px rgb(135, 150, 139);
+}
+
+.about .description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section{
+    width: 60%;
+}
+
+.section .card{
+display: flex;
+border: 3px solid rgb(2, 107, 28) ;
+border-radius: 30px;
+background-color: rgb(243, 191, 122);
+margin: 40px;
+padding: 40px;
+
+}
+
+.section .card .left{
+    flex: 3;
+}
+
+
+.section .card .right{
+    flex: 2;
+}
